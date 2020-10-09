@@ -5,6 +5,7 @@
     font-size: 32px !important;
     color: rgb(36, 36, 56);
 }
+
 .active {
     color: black !important;
     font-style: italic;
@@ -16,22 +17,8 @@ a.nav-link {
     background: white;
     padding: 6px 20px !important;
     width: 180px !important;
-
 }
 
 .nav-img {
     margin-left: -10px !important;
-    
-}
-.wrapper {
-    width: 100%;
-    margin-top: 120px;
-}
-
-@media screen and (min-width: 768px){
-    
-.container-fluid {
-    width: 80% !important;
-    margin: 0 auto !important;
-}
 }
