@@ -29,9 +29,20 @@ a.nav-link {
     margin-left: 0px !important;
 }
 
+.wrapper {
+    width: 98%;
+    margin: 100px auto 0 auto;
+}
+
+form {
+    padding-bottom: 15px !important;
+}
+
 h2 {
     text-align: right;
     font-family: 'philosopher', sans-serif;
+    background: #ffffff;
+    
 
 }
 
@@ -50,4 +61,25 @@ p, .card-link, form {
 .card {
     margin-bottom: 20px !important;
 }
+
+.line {
+    margin-top: -13px;
+    background-color:  rgb(152, 231, 231);
+    height: 3px;
+    border-radius: 20px 0px;
+}
+
+#portfolio {
+    background-image: url(images/code.JPG);
+}
+
+#contact {
+    background: darkgray;
+
+}
+
+#emailHelp {
+    color: #ffffff !important;
+}
+
 
