@@ -4,6 +4,7 @@
 .name {
     font-size: 32px !important;
     color: rgb(36, 36, 56);
+    font-family: 'philosopher', sans-serif;
 }
 
 .active {
@@ -12,17 +13,41 @@
     font-weight: 580;
 }
 
+.nav-img {
+    margin-left: 0px !important;
+}
+
 a.nav-link {
     color: black !important;
     background: white;
     padding: 6px 20px !important;
     width: 180px !important;
+    font-family: 'philosopher', sans-serif;
 }
 
 .nav-img {
     margin-left: 0px !important;
 }
 
+h2 {
+    text-align: right;
+    font-family: 'philosopher', sans-serif;
+
+}
+
+h5, h6, .card-header {
+    font-family: 'philosopher', sans-serif;
+}
+
+.card-header {
+    font-size: 18px;
+}
+
+p, .card-link {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .card {
     margin-bottom: 20px !important;
 }
+
