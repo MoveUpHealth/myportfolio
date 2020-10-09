@@ -10,7 +10,7 @@
 .active {
     color: black !important;
     font-style: italic;
-    font-weight: 580;
+    font-weight: bold;
 }
 
 .nav-img {
@@ -43,7 +43,7 @@ h5, h6, .card-header {
     font-size: 18px;
 }
 
-p, .card-link {
+p, .card-link, form {
     font-family: 'Montserrat', sans-serif;
 }
 
