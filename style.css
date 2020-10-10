@@ -69,11 +69,6 @@ p, .card-link, form, a {
     background-image: url(images/mybackground.png);
 }
 
-#profile {
-   float: left;
-   
-}
-
 #portfolio {
     background-image: url(images/code.JPG);
 
