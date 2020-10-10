@@ -46,7 +46,7 @@ h2 {
 
 }
 
-h5, h6, .card-header {
+h1, h5, h6, .card-header {
     font-family: 'philosopher', sans-serif;
 }
 
@@ -54,7 +54,7 @@ h5, h6, .card-header {
     font-size: 18px;
 }
 
-p, .card-link, form {
+p, .card-link, form, a {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -91,6 +91,10 @@ p, .card-link, form {
 #emailHelp {
     color: #ffffff !important;
 }
+
+
+
+
 
 
 
