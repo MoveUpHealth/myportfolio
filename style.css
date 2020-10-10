@@ -92,6 +92,13 @@ p, .card-link, form, a {
     color: #ffffff !important;
 }
 
+footer {
+    color:  rgb(152, 231, 231);
+    font-weight: bold;
+    text-shadow: 1px 1px darkgray;
+    width: 98% !important;
+    margin: -11px auto 0 auto !important;
+}
 
 
 
