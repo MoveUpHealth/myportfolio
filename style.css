@@ -69,8 +69,18 @@ p, .card-link, form {
     border-radius: 20px 0px;
 }
 
+#aboutme {
+    background-image: url(images/mybackground.png);
+}
+
+#profile {
+   float: left;
+   
+}
+
 #portfolio {
     background-image: url(images/code.JPG);
+
 }
 
 #contact {
@@ -81,5 +91,7 @@ p, .card-link, form {
 #emailHelp {
     color: #ffffff !important;
 }
+
+
 
 
