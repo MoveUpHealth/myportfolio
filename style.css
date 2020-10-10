@@ -34,10 +34,6 @@ a.nav-link {
     margin: 100px auto 0 auto;
 }
 
-form {
-    padding-bottom: 15px !important;
-}
-
 h2 {
     text-align: right;
     font-family: 'philosopher', sans-serif;
@@ -83,21 +79,23 @@ p, .card-link, form, a {
 
 }
 
-#contact {
-    background: darkgray;
 
+#contact {
+    background: #E1D9CE;
 }
 
 #emailHelp {
     color: #ffffff !important;
 }
 
+form {
+    padding-bottom: 30px !important;
+}
+
 footer {
-    color:  rgb(152, 231, 231);
-    font-weight: bold;
-    text-shadow: 1px 1px darkgray;
+    color:  #E1D9CE;
     width: 98% !important;
-    margin: -11px auto 0 auto !important;
+    margin: 0 auto 0 auto !important;
 }
 
 
