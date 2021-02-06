@@ -1,87 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/CSS" href="style.css">
+    <link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Philosopher:ital@0;1&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Philosopher:ital@0;1&display=swap" rel="stylesheet">
-    <title>Contact Me</title>
+    <title>Web Development by Jessica Tax</title>
 </head>
 <body class="container-fluid">
+        
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
     
-        <a class="name navbar-brand" href="index.html">
-        <img src="images/logo.png" width="40" height="55" class="d-inline-block align-top nav-img" alt="J logo">
-        Code by Jess</a>
-      
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <a class="name navbar-brand" href="index.html">
+      <img src="assets/images/logo.png" height="85" class="d-inline-block align-top nav-img" alt="J logo">
+      Code by Jess</a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          
-          <li class="nav-item ml-auto">
-            <a class="nav-link navbar-brand" href="index.html">
-              <img src="images/aboutme.png" width="63" height="40" class="d-inline-block align-top nav-img" alt="Smiley point to self" loading="lazy">
-              About Me <span class="sr-only">(current)</span></a>
+    <!-- Nav bar for small screens -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item ml-auto active">
+          <a class="nav-link navbar-brand" href="index.html">
+            <img src="assets/images/aboutme.png" width="63" height="40" class="d-inline-block align-top nav-img" alt="Smiley point to self" loading="lazy">
+            About Me <span class="sr-only">(current)</span></a>
+        </li>
+        
+        <li class="nav-item ml-auto">
+          <a class="nav-link navbar-brand" href="portfolio.html">
+            <img src="assets/images/portfolio.png" width="41" height="40" class="d-inline-block align-top nav-img" alt="Smiley looking into the distance" loading="lazy">
+            My Portfolio</a>
+        </li>
+        
+        <li class="nav-item ml-auto">
+          <a class="nav-link navbar-brand" href="contact.html">
+            <img src="assets/images/contact.png" width="31" height="40" class="d-inline-block align-top nav-img" alt="Smiley punching a number into a cellphone" loading="lazy">
+            Contact Me</a>
           </li>
-          
-          <li class="nav-item ml-auto">
-            <a class="nav-link navbar-brand" href="portfolio.html">
-              <img src="images/portfolio.png" width="41" height="40" class="d-inline-block align-top nav-img" alt="Smiley looking into the distance" loading="lazy">
-              My Portfolio</a>
-          </li>
-          
-          <li class="nav-item ml-auto active">
-            <a class="nav-link navbar-brand" href="contact.html">
-              <img src="images/contact.png" width="31" height="40" class="d-inline-block align-top nav-img" alt="Smiley punching a number into a cellphone">
-              Contact Me</a>
-            </li>
-          </ul>
-      </div>  
-      </nav>
-    <main class="wrapper" id="contact">
+        </ul>
+    </div>  
+    </nav>
+      <!-- Beginning of Page Content -->
+      <main class="wrapper" id="contact">
 
-        <h2>Contact Me</h2>
-        <hr class="line">
+          <h2>Contact Me</h2>
+          <hr class="line">
 
-        <div class="container" style="min-width: 95%">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="images/running.jpg" height="400px" style="margin-bottom: 30px;" alt="Running and smiling">
-            </div>
-            <div class="col-md-6 offset-md-2 col-lg-7 offset-lg-1 align-self-center">
-            <form>
-                
-                <div class="form-group">
-                <label for="name">Name</label>
-                <input type="name" class="form-control" id="nameInput">
-                </div>
+          <div class="container" style="min-width: 95%">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="assets/images/running.jpg" height="400px" style="margin-bottom: 30px;" alt="Running and smiling">
+              </div>
+              <div class="col-md-6 offset-md-2 col-lg-7 offset-lg-1 align-self-center">
+              <form>
+                  
+                  <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="name" class="form-control" id="nameInput">
+                  </div>
 
-                <div class="form-group">
-                <label for="emailAddress">Email address</label>
-                <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
+                  <div class="form-group">
+                  <label for="emailAddress">Email address</label>
+                  <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
 
-                <div class="form-group">
-                    <label for="textArea">Your Message:</label>
-                    <textarea class="form-control" id="textAreaInput" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary" style="background: rgb(152, 231, 231); border-color:rgb(152, 231, 231); font-weight: bold;">Submit</button>
-            </form>
+                  <div class="form-group">
+                      <label for="textArea">Your Message:</label>
+                      <textarea class="form-control" id="textAreaInput" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary" style="background: rgb(152, 231, 231); border-color:rgb(152, 231, 231); font-weight: bold;">Submit</button>
+              </form>
+              </div>
             </div>
           </div>
-        </div>
-        <hr class="line">
-    </main>
-    <footer>
-        <div class="footer">
-            
-            <p style="text-align: center;">&copy; Copyright 2020</p>  
-        </div>
-    </footer>
+          <hr class="line">
+      </main>
+      <!-- End of Page Content -->
+      <footer>
+          <div class="footer">
+              
+              <p style="text-align: center;">&copy; Copyright 2020</p>  
+          </div>
+      </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

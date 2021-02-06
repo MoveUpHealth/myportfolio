@@ -4,59 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/CSS" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Philosopher:ital@0;1&display=swap" rel="stylesheet">
-    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Philosopher:ital@0;1&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Philosopher:ital@0;1&display=swap" rel="stylesheet">
+    <title>Web Development by Jessica Tax</title>
 </head>
 <body class="container-fluid">
-    <div class="row">
+        
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-
-    <a class="name navbar-brand" href="index.html">
-    <img src="images/logo.png" width="40" height="55" class="d-inline-block align-top nav-img" alt="J logo">
-    Code by Jess</a>
     
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-        
-        <li class="nav-item ml-auto">
-        <a class="nav-link navbar-brand" href="index.html">
-            <img src="images/aboutme.png" width="63" height="40" class="d-inline-block align-top nav-img" alt="Smiley point to self" loading="lazy">
-            About Me <span class="sr-only">(current)</span></a>
-        </li>
-        
-        <li class="nav-item ml-auto active">
-        <a class="nav-link navbar-brand" href="portfolio.html">
-            <img src="images/portfolio.png" width="41" height="40" class="d-inline-block align-top nav-img" alt="Smiley looking into the distance" loading="lazy">
-            My Portfolio</a>
-        </li>
-        
-        <li class="nav-item ml-auto">
-        <a class="nav-link navbar-brand" href="contact.html">
-            <img src="images/contact.png" width="31" height="40" class="d-inline-block align-top nav-img" alt="Smiley punching a number into a cellphone">
-            Contact Me</a>
-        </li>
-        </ul>
-    </div>  
+        <a class="name navbar-brand" href="index.html">
+        <img src="assets/images/logo.png" height="85" class="d-inline-block align-top nav-img" alt="J logo">
+        Code by Jess</a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    <!-- Nav bar for small screens -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item ml-auto active">
+                <a class="nav-link navbar-brand" href="index.html">
+                <img src="assets/images/aboutme.png" width="63" height="40" class="d-inline-block align-top nav-img" alt="Smiley point to self" loading="lazy">
+                About Me <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item ml-auto">
+                <a class="nav-link navbar-brand" href="portfolio.html">
+                <img src="assets/images/portfolio.png" width="41" height="40" class="d-inline-block align-top nav-img" alt="Smiley looking into the distance" loading="lazy">
+                My Portfolio</a>
+            </li>
+            
+            <li class="nav-item ml-auto">
+                <a class="nav-link navbar-brand" href="contact.html">
+                <img src="assets/images/contact.png" width="31" height="40" class="d-inline-block align-top nav-img" alt="Smiley punching a number into a cellphone" loading="lazy">
+                Contact Me</a>
+                </li>
+            </ul>
+        </div>  
     </nav>
     </div>
+    <!-- Beginning main content -->
     <main class="wrapper" id="portfolio">
 
         <h2>My Portfolio</h2>
         <hr class="line">
     
     <div class="container" style="min-width: 95%">
-        
+        <!-- Row One -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card" style="background-color: #FFFBE4;">
+                    <div class="card-header">
+                      Companions
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <img src="assets/images/companions1.png" class="card-img-top companions" id="companions-login" alt="Login page for Companions">
+                            <img src="assets/images/companionsprofile1.png" class="card-img-top companions" alt="Profile page for Companions">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="assets/images/angrycat.png" class="card-img-top" id="angry-cat" alt="Angry cat post example">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Companions: Social Media for Pet Lovers</h5>
+                      <p class="card-text">Now you can showcase that special member of the family on a platform made for them. Share pictures and add captions that truly capture what your pet is thinking. Browse your friends' posts, like, and comment.</p>
+                      <a href="https://salty-meadow-82402.herokuapp.com/" class="card-link" target="_blank">Companions</a>
+                        <a href="https://github.com/MoveUpHealth/Companions" class="card-link" target="_blank">Behind the Scenes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row Two -->
         <div class="row">
             <div class="col-lg-8">
                 <div class="card" >
                     <div class="card-header">
                       Full Website Development
                     </div>
-                    <img src="images/website_original.JPG" class="card-img-top" alt="Image of a website">
+                    <img src="assets/images/website_original.JPG" class="card-img-top" alt="Image of a website">
                     <div class="card-body">
                       <h5 class="card-title">Move Up Health and Fitness</h5>
                       <p class="card-text">This is the website that I designed and use for my fitness business. We offer personal training and 
@@ -65,109 +92,74 @@
                       <p class="card-text">I started from scratch and coded all of the HTML and CSS. I later learned PHP for the newsletter and contact forms. In 2020, I added virtual services using Wordpress
                           and the Memberpress extension.
                       </p>
-                      <a href="https://www.moveuphealth.com/" class="card-link">www.moveuphealth.com</a>
+                      <a href="https://www.moveuphealth.com/" class="card-link" target="_blank">www.moveuphealth.com</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">                
                 <div class="card">
-                    <img src="images/github.jpg" class="card-img-top" alt="Github profile image">
+                    <img src="assets/images/github.jpg" class="card-img-top" alt="Github profile image">
                     <div class="card-body">
                       <h5 class="card-title">Github Profile</h5>
                       <h6 class="card-subtitle mb-2 text-muted">@MoveUpHealth</h6>
                       <p class="card-text">In my Github account you can see more of my work and get insight into my work flow.</p>
-                      <a href="https://github.com/MoveUpHealth?tab=repositories" class="card-link">Github Repositories</a>
+                      <a href="https://github.com/MoveUpHealth?tab=repositories" class="card-link" target="_blank">Github Repositories</a>
                     </div>
                 </div>            
                 <div class="card">
-                    <img src="images/optimization.jpg" class="card-img-top" alt="Webpage layout">
+                    <img src="assets/images/optimization.jpg" class="card-img-top" alt="Webpage layout">
                     <div class="card-body">
                         <h5 class="card-title">SEO Optimization</h5>
                         <h6 class="card-subtitle mb-2 text-muted">An exercise in accessibility</h6>
                         <p class="card-text">For this project, I edited the code to improve accessibility for SEO optimization. I also included comments in the html and CSS to streamline editing in the future.</p>
-                        <a href="https://moveuphealth.github.io/accessibility/" class="card-link">Horiseon</a>
+                        <a href="https://moveuphealth.github.io/accessibility/" class="card-link" target="_blank">Horiseon</a>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- Row Three -->
         <div class="row">
             <div class="col-lg-8">
                 <div class="card">
                     <div class="card-header">
                       Flavor
                     </div>
-                    <img src="./images/flavor.jpg" class="card-img-top" alt="Image of Flavor website">
+                    <img src="assets/images/flavor.jpg" class="card-img-top" alt="Image of Flavor website">
                     <div class="card-body">
                       <h5 class="card-title">Discover and Save Your Favorite Recipes and Restaurants</h5>
                       <p class="card-text">Take your skills in the kitchen to the next level by exploring our meal and cocktail recipes. <br><br> Don't feel like cooking?
                         Search for a restaurant and treat yourself to a night out.
                       </p>
-                      <a href="https://moveuphealth.github.io/the-flavor-app/" class="card-link">Welcome to Flavor</a>
-                      <a href="https://github.com/MoveUpHealth/the-flavor-app" class="card-link">Behind the Scenes</a>
+                      <a href="https://moveuphealth.github.io/the-flavor-app/" class="card-link" target="_blank">Welcome to Flavor</a>
+                      <a href="https://github.com/MoveUpHealth/the-flavor-app" class="card-link" target="_blank">Behind the Scenes</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">                
                 <div class="card">
-                    <img src="./images/weather.png" class="card-img-top" alt="Screenshot of a Weather Dashboard">
+                    <img src="assets/images/weather.png" class="card-img-top" alt="Screenshot of a Weather Dashboard">
                     <div class="card-body">
                       <h5 class="card-title">The Weather Dashboard</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Easy to Use Weather App</h6>
                       <p class="card-text">This weather dashboard will show you the current weather and five-day forecast for any city in the world! Use it to check your local weather and help plan for your next trip!</p>
-                      <a href="https://moveuphealth.github.io/weather-dashboard/" class="card-link">Check the Weather</a>
-                      <a href="https://github.com/MoveUpHealth/weather-dashboard" class="card-link">Behind the Scenes</a>
+                      <a href="https://moveuphealth.github.io/weather-dashboard/" class="card-link" target="_blank">Check the Weather</a>
+                      <a href="https://github.com/MoveUpHealth/weather-dashboard" class="card-link" target="_blank">Behind the Scenes</a>
                     </div>
                 </div>            
                 <div class="card">
-                    <img src="./images/scheduler.jpg" class="card-img-top" alt="Screenshot of a Daily Scheduler">
+                    <img src="assets/images/scheduler.jpg" class="card-img-top" alt="Screenshot of a Daily Scheduler">
                     <div class="card-body">
                         <h5 class="card-title">Daily Scheduler</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Stay Organized</h6>
                         <p class="card-text">Increase productivity and organization with this daily planner.</p>
-                        <a href="https://moveuphealth.github.io/daily-scheduler/" class="card-link">Get Organized</a>
-                        <a href="https://github.com/MoveUpHealth/daily-scheduler" class="card-link">Behind the Scenes</a>
+                        <a href="https://moveuphealth.github.io/daily-scheduler/" class="card-link" target="_blank">Get Organized</a>
+                        <a href="https://github.com/MoveUpHealth/daily-scheduler" class="card-link" target="_blank">Behind the Scenes</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Place holders for future projects
-            <div class="row">
-            <div class="col-lg-8">
-                <div class="card">
-                    <div class="card-header">
-                      Featured
-                    </div>
-                    <img src="" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">                
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                    </div>
-                </div>            
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+        
+    </div>
     <hr class="line">
     </main>
     <footer>

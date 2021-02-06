@@ -13,20 +13,22 @@
     font-weight: bold;
 }
 
+
+
 .nav-img {
-    margin-left: 0px !important;
+    margin: -4% -3% -5% 0 !important;
 }
 
 a.nav-link {
     color: black !important;
     background: white;
-    padding: 6px 20px !important;
+    padding: 8px 20px !important;
     width: 180px !important;
     font-family: 'philosopher', sans-serif;
 }
 
-.nav-img {
-    margin-left: 0px !important;
+a.nav-link:hover {
+    background: #E1D9CE !important;
 }
 
 .wrapper {
@@ -38,8 +40,6 @@ h2 {
     text-align: right;
     font-family: 'philosopher', sans-serif;
     background: #ffffff;
-    
-
 }
 
 h1, h5, h6, .card-header {
@@ -66,14 +66,16 @@ p, .card-link, form, a {
 }
 
 #aboutme {
-    background-image: url(images/mybackground.png);
+    background-image: url(../images/mybackground.png);
 }
 
 #portfolio {
-    background-image: url(images/code.JPG);
-
+    background-image: url(../images/code.JPG);
 }
 
+#angry-cat {
+    display: none;
+}
 
 #contact {
     background: #E1D9CE;
@@ -93,6 +95,17 @@ footer {
     margin: 0 auto 0 auto !important;
 }
 
+@media only screen and (min-width: 990px){
+    #angry-cat {
+        display: flex;
+    }
+    #companions-login {
+        margin-bottom: 8%;
+    }
+    .companions {
+        margin-left: 1%;
+    }
+}
 
 
 
